@@ -64,6 +64,11 @@ Cybersecurity graduate focused on offensive security, penetration testing, and s
 <p align="left">
   <a href="https://linkedin.com/in/esraa-khammash" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:esraaalkhammash@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <p align="center">
+  <a href="https://esraa11904.github.io/Esraa11904/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-esraa11904.github.io-1D70B8?style=for-the-badge&logo=githubpages&logoColor=white" alt="Esraa Portfolio" />
+  </a>
+</p>
 </p>
 
 ### 💭 Security Mindset
