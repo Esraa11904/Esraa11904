@@ -42,6 +42,21 @@ Cybersecurity graduate focused on offensive security, penetration testing, and s
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
   <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Active%20Directory-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Active Directory" />
+  <img src="https://img.shields.io/badge/Metasploit-1D1D1D?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP" />
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk"/>
+  <img src="https://img.shields.io/badge/TryHackMe-88CC14?style=for-the-badge&logo=tryhackme&logoColor=black" alt="TryHackMe" />
+  <img src="https://img.shields.io/badge/Hack%20The%20Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="HackTheBox" />
+  <img src="https://img.shields.io/badge/Gobuster-232F3E?style=for-the-badge&logo=gnu&logoColor=white" alt="Gobuster" />
+  <img src="https://img.shields.io/badge/BloodHound-2C3E50?style=for-the-badge&logo=security&logoColor=white" alt="BloodHound" />
+  <img src="https://img.shields.io/badge/John%20the%20Ripper-B22222?style=for-the-badge&logo=gnuprivacyguard&logoColor=white" alt="John the Ripper" />
+  <img src="https://img.shields.io/badge/Hydra-4A4A4A?style=for-the-badge&logo=linux&logoColor=white" alt="Hydra" />
+  <img src="https://img.shields.io/badge/Aircrack--ng-333333?style=for-the-badge&logo=wifi&logoColor=white" alt="Aircrack-ng" />
+  <img src="https://img.shields.io/badge/Nessus-000000?style=for-the-badge&logo=tenable&logoColor=white" alt="Nessus"
 </p>
 
 ### 🔗 Connect With Me
