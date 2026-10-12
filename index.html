@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Esraa Khammash — cybersecurity portfolio focused on penetration testing, security assessment, and practical labs.">
+  <meta name="theme-color" content="#0b1020">
+  <title>Esraa Khammash | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Cairo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="main.js"></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap container">
+      <a class="brand" href="#home" aria-label="Esraa Khammash home"><span class="brand-mark">EK</span><span>E.
+          Khammash<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle icon-button" aria-label="Open navigation" aria-expanded="false"
+        aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav id="primary-nav" class="nav-links" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#experience" data-i18n="navExperience">Training</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="language-toggle" class="pill-button" type="button" aria-label="Switch language">عربي</button>
+        <button id="theme-toggle" class="icon-button theme-toggle" type="button" aria-label="Switch color theme"><span
+            class="theme-glyph">☾</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" id="home">
+      <div class="hero-image-wrap">
+        <img src="Assets/IMG_20260812_165239_759.webp" alt="Esraa Khammash" class="profile-image">
+      </div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">CYBERSECURITY • HANDS-ON
+            LABS</span></div>
+        <h1><span data-i18n="heroHello">Hi, I’m</span> <span class="gradient-text">Esraa Khammash</span><span
+            class="hero-period">.</span></h1>
+        <p class="hero-role" data-i18n="heroRole">Junior Penetration Tester</p>
+        <p class="hero-description" data-i18n="heroDescription">I build and document practical security labs to
+          understand how systems fail, how vulnerabilities are validated, and how findings can be communicated clearly.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span data-i18n="viewProjects">Explore my
+              projects</span><span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact" data-i18n="contactMe">Contact me</a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-icon">⌖</span><span data-i18n="location">Amman, Jordan</span></span>
+          <span><span class="meta-icon">⌘</span><span data-i18n="focus">Pentesting & Security Assessment</span></span>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Portfolio focus">
+        <div class="card-topline"><span class="terminal-dot red"></span><span class="terminal-dot yellow"></span><span
+            class="terminal-dot green"></span><span class="terminal-label">security-notes.md</span></div>
+        <div class="code-content">
+          <p class="code-muted">01 <span data-i18n="codeObjective">Objective</span></p>
+          <p class="code-line"><span class="code-key">const</span> focus = [</p>
+          <p class="code-indent"><span class="code-string" data-i18n="codeWeb">"Web application testing"</span>,</p>
+          <p class="code-indent"><span class="code-string" data-i18n="codeNetwork">"Network security labs"</span>,</p>
+          <p class="code-indent"><span class="code-string" data-i18n="codeReports">"Clear technical reports"</span>,</p>
+          <p class="code-indent"><span class="code-string" data-i18n="codeMob">Mobile Pen Testing</span></p>
+
+          <p class="code-line">];</p>
+          <div class="code-divider"></div>
+          <p class="code-muted">02 <span data-i18n="codeApproach">Approach</span></p>
+          <p><span class="code-key">recon</span> <span class="code-arrow">→</span> <span
+              class="code-key">validate</span> <span class="code-arrow">→</span></p>
+          <p><span class="code-key">document</span> <span class="code-arrow">→</span> <span
+              class="code-key">remediate</span></p>
+          <div class="terminal-status"><span class="status-dot"></span><span data-i18n="labBased">Lab-based learning ·
+              Ethical testing only</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="trust-strip container" aria-label="Focus areas">
+      <span data-i18n="strip1">Web Security</span><span class="strip-separator">/</span>
+      <span data-i18n="strip2">Network Labs</span><span class="strip-separator">/</span>
+      <span data-i18n="strip3">Vulnerability Assessment</span><span class="strip-separator">/</span>
+      <span data-i18n="strip4">Technical Reporting</span><span class="strip-separator">/</span>
+      <span data-i18n="strip5">Mobile Pen Testing</span>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="aboutKicker">01 — ABOUT</p>
+        <h2 data-i18n="aboutTitle">Curious by nature. Methodical by practice.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p data-i18n="aboutText">I’m a cybersecurity specialist building a practical foundation in penetration testing
+            and security assessment. My work centers on controlled labs, documenting the attack path, understanding
+            impact, and turning technical observations into actionable remediation guidance.</p>
+          <p data-i18n="aboutText2">I also have training through the NCSC Masar Program, which strengthened my
+            understanding of monitoring, indicators of compromise, incident response workflows, and security risk.</p>
+        </div>
+        <div class="principles">
+          <div class="principle"><span class="principle-number">01</span>
+            <div>
+              <h3 data-i18n="principle1Title">Evidence first</h3>
+              <p data-i18n="principle1Text">Claims should be supported by reproducible steps and clear evidence.</p>
+            </div>
+          </div>
+          <div class="principle"><span class="principle-number">02</span>
+            <div>
+              <h3 data-i18n="principle2Title">Understand impact</h3>
+              <p data-i18n="principle2Text">Explain what a weakness means for the system, not only its name.</p>
+            </div>
+          </div>
+          <div class="principle"><span class="principle-number">03</span>
+            <div>
+              <h3 data-i18n="principle3Title">Actionable reporting</h3>
+              <p data-i18n="principle3Text">Prioritize findings and provide realistic remediation steps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="section-kicker" data-i18n="projectsKicker">02 — SELECTED WORK</p>
+            <h2 data-i18n="projectsTitle">Projects & security labs</h2>
+          </div>
+          <p class="heading-note" data-i18n="projectsNote"></p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-art art-network"><span class="art-label">LAB / 01</span>
+              <div class="network-visual"><i></i><i></i><i></i><i></i><b>AD</b></div><span class="art-caption">IDENTITY
+                · NETWORK · ACCESS</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type" data-i18n="projectTypeLab">SECURITY LAB</div>
+              <h3 data-i18n="adTitle">Active Directory & Internal Network Lab</h3>
+              <p data-i18n="adText">A controlled lab focused on Windows domain fundamentals, network enumeration,
+                identity exposure, and documenting security weaknesses with mitigation recommendations.</p>
+              <div class="tag-list"><span>Windows Server</span><span>Active
+                  Directory</span><span>Nmap</span><span>BloodHound*</span></div>
+              <div class="project-footer"><span class="project-disclaimer" data-i18n="labDisclaimer">Controlled
+                  environment</span><a href="#contact" class="text-link" data-i18n="requestWriteup">Ask about write-up
+                  ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-web"><span class="art-label">LAB / 02</span>
+              <div class="web-window">
+                <div class="window-bar"><i></i><i></i><i></i></div>
+                <div class="window-content"><span></span><span></span><span class="short"></span><b>HTTP / 80</b></div>
+              </div><span class="art-caption">ENUMERATE · TEST · REPORT</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type" data-i18n="projectTypeLab">SECURITY LAB</div>
+              <h3 data-i18n="networkTitle">Enterprise Network Lab Simulation</h3>
+              <p data-i18n="networkText">A simulated assessment of exposed services and potential attack paths, with
+                emphasis on validating findings and writing prioritized remediation guidance.</p>
+              <div class="tag-list"><span>Nmap</span><span>Linux</span><span>Web services</span><span>Reporting</span>
+              </div>
+              <div class="project-footer"><span class="project-disclaimer" data-i18n="labDisclaimer">Controlled
+                  environment</span><a href="#contact" class="text-link" data-i18n="requestWriteup">Ask about write-up
+                  ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-ctf"><span class="art-label">BUILD / 03</span>
+              <div class="orbit orbit-one"></div>
+              <div class="orbit orbit-two"></div>
+              <div class="ctf-core">CTF<span>QUEST</span></div><span class="art-caption">LEARN · SOLVE · LEVEL UP</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type" data-i18n="projectTypeBuild">DEVELOPMENT PROJECT</div>
+              <h3 data-i18n="ctfTitle">Gamified CTF Learning Platform</h3>
+              <p data-i18n="ctfText">A graduation project for an educational Capture the Flag platform with challenge
+                categories, hints, points, levels, and a gamified learning experience.</p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>CTF</span></div>
+              <div class="project-footer"><span class="project-disclaimer" data-i18n="academicProject">Academic
+                  project</span><a href="https://github.com/Esraa11904/CTF-Quest" target="_blank"
+                  rel="noopener noreferrer" class="text-link">GitHub ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-malware"><span class="art-label">SIMULATION / 04</span>
+              <div class="malware-symbol"><span>×</span><i></i><i></i><i></i></div><span class="art-caption">BEHAVIOR ·
+                DETECTION · DEFENSE</span>
+            </div>
+            <div class="project-body">
+              <div class="project-type" data-i18n="projectTypeBuild">DEVELOPMENT PROJECT</div>
+              <h3 data-i18n="ransomTitle">Ransomware Behavior Simulation</h3>
+              <p data-i18n="ransomText">A controlled Python simulation designed to study malware-like file behavior and
+                discuss defensive monitoring and safe analysis practices.</p>
+              <div class="tag-list"><span>Python</span><span>Simulation</span><span>Defensive analysis</span></div>
+              <div class="project-footer"><span class="project-disclaimer" data-i18n="safeSimulation">Non-deployable,
+                  controlled simulation</span><a href="#contact" class="text-link" data-i18n="requestWriteup">Ask about
+                  write-up ↗</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="experience">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="trainingKicker">03 — TRAINING</p>
+        <h2 data-i18n="trainingTitle">Training & experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-meta"><span data-i18n="masarOrg">National Cyber Security Center (NCSC)</span><span
+              data-i18n="masarDate">Jan 2025 — Jan 2026</span></div>
+          <h3 data-i18n="masarTitle">Cybersecurity Trainee — Masar Program</h3>
+          <p data-i18n="masarText">Completed 200+ hours of SOC-focused training covering monitoring, traffic and log
+            analysis, indicators of compromise, simulated attack scenarios, incident response workflows, and risk
+            assessment.</p>
+          <div class="tag-list"><span>SOC Fundamentals</span><span>Log Analysis</span><span>Incident
+              Response</span><span>IOC Analysis</span></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-meta"><span data-i18n="ctfOrg">National Cyber Security Center (NCSC)</span><span
+              data-i18n="ctfDate">Jan 2024</span></div>
+          <h3 data-i18n="ctfTrainingTitle">Cyber Warriors — CTF Training</h3>
+          <p data-i18n="ctfTrainingText">Participated in Capture the Flag training to develop structured problem-solving
+            and practical cybersecurity skills.</p>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-meta"><span data-i18n="communityOrg">Jordan Cyber Club</span><span
+              data-i18n="communityDate">Community contribution</span></div>
+          <h3 data-i18n="communityTitle">CTF Challenge Author</h3>
+          <p data-i18n="communityText">Designed two beginner-level reverse engineering challenges for the Catch the
+            Hilal CTF. Add a public event or challenge link if available.</p>
+          <div class="tag-list"><span>Reverse Engineering</span><span>CTF Design</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="skillsKicker">04 — TOOLKIT</p>
+          <h2 data-i18n="skillsTitle">Technical skills</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">⌕</div>
+            <h3 data-i18n="skill1Title">Offensive security</h3>
+            <p data-i18n="skill1Text">Reconnaissance, enumeration, web application testing, vulnerability validation,
+              and technical reporting.</p>
+            <div class="tag-list"><span>Nmap</span><span>Burp Suite</span><span>Gobuster</span><span>OWASP Top 10</span>
+            </div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⌘</div>
+            <h3 data-i18n="skill2Title">Network & systems</h3>
+            <p data-i18n="skill2Text">Network fundamentals, service discovery, Linux and Windows environments, and basic
+              domain lab concepts.</p>
+            <div class="tag-list"><span>Wireshark</span><span>Linux</span><span>Windows</span><span>Active
+                Directory</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">◈</div>
+            <h3 data-i18n="skill3Title">Detection & analysis</h3>
+            <p data-i18n="skill3Text">Log and traffic analysis, IOC awareness, incident response process, and risk-based
+              prioritization.</p>
+            <div class="tag-list"><span>Log Analysis</span><span>IOC</span><span>Risk Assessment</span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">{ }</div>
+            <h3 data-i18n="skill4Title">Programming & tools</h3>
+            <p data-i18n="skill4Text">Scripting and application fundamentals for automation, testing, and building
+              learning tools.</p>
+            <div class="tag-list">
+              <span>Python</span><span>PHP</span><span>JavaScript</span><span>SQL</span><span>Git</span></div>
+          </article>
+        </div>
+        <p class="small-note" data-i18n="skillsNote"></p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="section-kicker" data-i18n="educationKicker">05 — BACKGROUND</p>
+        <h2 data-i18n="educationTitle">Education & certifications</h2>
+      </div>
+      <div class="education-grid">
+        <article class="education-card"><span class="education-symbol">01</span>
+          <div>
+            <p class="card-eyebrow" data-i18n="educationLabel">EDUCATION</p>
+            <h3 data-i18n="degreeTitle">B.Sc. in Cybersecurity</h3>
+            <p data-i18n="university">Zarqa University, Jordan</p><span class="muted"
+              data-i18n="degreeNote">Graduate</span>
+          </div>
+        </article>
+        <article class="education-card"><span class="education-symbol">02</span>
+          <div>
+            <p class="card-eyebrow" data-i18n="certLabel">CERTIFICATIONS & TRAINING</p>
+            <ul class="cert-list">
+              <li data-i18n="cert1">Cyber Security Associate — Green Circle</li>
+              <li data-i18n="cert2">Cyber Warriors CTF Training — NCSC</li>
+              <li data-i18n="cert3">NCSC Masar Program — Cybersecurity Training</li>
+              <li data-i18n="cert4">AWS Certified Cloud Practitioner </li>
+              <li data-i18n="cert5">Python Programming Certification — HTUX</li>
+              <li data-i18n="cert6"> Employability Skills Program Certificate (30 Hours) — SMT Group & OZ Training &
+                Consulting</li>
+              <li data-i18n="cert7"> Entrepreneurship Skills Program Certificate (10 Hours) — SMT Group & OZ Training &
+                Consulting</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+      <p class="small-note" data-i18n="certNote"></p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <p class="section-kicker" data-i18n="contactKicker">06 — CONTACT</p>
+          <h2 data-i18n="contactTitle">Let’s talk security.</h2>
+          <p data-i18n="contactText">Open to entry-level opportunities, internships, and collaborative security
+            projects.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://www.linkedin.com/in/esraa-khammash-635406389/" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="button button-secondary" href="https://github.com/Esraa11904" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+          <a class="button button-secondary phone-link" href="tel:+962791183538" dir="ltr"
+            aria-label="Call +962791183538"><span class="phone-icon" aria-hidden="true">☎</span><span
+              data-i18n="callPhone">Call</span><span class="phone-number">+962791183538</span></a>
+          <p id="copy-status" class="copy-status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><span
+          class="brand-mark">EK</span><span>E. Khammash<span class="brand-dot">.</span></span></a>
+      <p data-i18n="footerText">Built with curiosity, documented with evidence.</p><a href="#home" class="back-top"
+        data-i18n="backTop">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+
+</html>
